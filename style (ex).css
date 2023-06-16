@@ -1,0 +1,55 @@
+/* MARK DEFAULT*/
+body {
+font-family: 'Times New Roman', Times, serif;
+background: url ("RevoU.png");
+}
+header {
+    background-color: #152a6e;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+button {
+    background-color: #152a6e;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #091641;
+}
+button:active {
+    transform: translateY(1px);
+    background-color: #040a1f;
+}
+
+/* MARK CLASS */
+#inputField {
+    outline: none;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid rgb(117, 117, 117);
+}
+#inputField :focus {
+    border: solid black;
+}
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+    padding: 10px;
+    border-radius: 5px;
+}
